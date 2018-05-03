@@ -143,7 +143,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="StaticGrid.cpp" />
     <ClCompile Include="SudokuAI.cpp" />
+    <ClCompile Include="SudokuPlate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StaticGrid.h" />
+    <ClInclude Include="SudokuPlate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
